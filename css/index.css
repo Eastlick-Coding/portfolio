@@ -1,0 +1,13 @@
+main {
+    margin-left: 1em;
+    color: #ffffff;
+}
+img {
+    border-color: #9C4826;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 20px;
+}
+.paraIndex {
+    color: #ffffff;
+}
