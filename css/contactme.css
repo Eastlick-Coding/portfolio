@@ -18,8 +18,8 @@ textarea {
     resize: none;
 }
 input[type=submit] {
-    background-color: #515858;
+    background-color: #9C4826;
     border-radius: 20px;
-    border: 5px solid #9C4826;
+    border: 5px solid #515858;
     color: #ffffff;
 }
