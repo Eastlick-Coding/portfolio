@@ -1,10 +1,11 @@
 .pictures {
-    height: 250px;
+    height: 300px;
     width: auto;
     border: 5px solid #515858;
     border-radius: 20px;
     display: inline-block;
     margin: 1em;
+    margin-right: 1em;
     object-fit: contain;
     vertical-align: middle;
 }
