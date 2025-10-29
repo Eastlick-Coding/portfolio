@@ -9,6 +9,8 @@ main {
 h2 {
     color: #ffffff;
     text-align: left;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 .pictures {
     height: 250px;
