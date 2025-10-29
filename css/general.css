@@ -52,9 +52,8 @@ footer {
     margin-right: .5em;
     margin-bottom: .5em;
 }
-@media (min-width: 501px) and (max-width: 901px) {
+@media (max-width: 600px) {
     main {
-        margin-left: 5em;
+        text-align: center;
     }
-    
-}
+}    
