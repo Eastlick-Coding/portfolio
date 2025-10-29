@@ -1,3 +1,15 @@
+main {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    margin: 0 auto; 
+}
+h2 {
+    color: #ffffff;
+    text-align: left;
+}
 .pictures {
     height: 250px;
     width: auto;
@@ -8,7 +20,6 @@
     margin-right: 1em;
     object-fit: contain;
     vertical-align: middle;
-    align-items: center;
 }
 @media (max-width: 600px) {
     main {
