@@ -10,3 +10,47 @@ img {
     border-radius: 20px;
     margin: 1em;
 }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1em;
+  border-radius: 20px;
+}
+table, th, td {
+  border: 1px solid #515858;
+}
+th, td {
+  display: block;
+  padding: 8px;
+  text-align: left;
+}
+tr {
+  margin-bottom: 1em;
+  display: block;
+}
+@media (min-width: 768px) {
+  table {
+    display: table;
+    width: 100%;
+  }
+
+  tr {
+    display: table-row;
+    margin-bottom: 0;
+  }
+
+  th, td {
+    display: table-cell;
+    padding: 10px 15px;
+  }
+}
+/* Mobile images: shrink with 1em margins */
+@media (max-width: 600px) {
+  img {
+    display: block;
+    width: calc(100% - 2em); /* leaves 1em margin on both sides */
+    height: auto; /* keeps aspect ratio */
+    margin: 1em auto; /* vertical and horizontal centering */
+    border-radius: 20px;
+  }
+}

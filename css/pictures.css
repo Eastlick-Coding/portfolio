@@ -18,10 +18,16 @@ h2 {
 @media (max-width: 600px) {
     main {
         text-align: center;
+        flex-direction: column;
     }
-    img {
+
+    img,
+    .pictures {
         display: block;
-        margin: 1em auto;
-        height: 200px;
+        margin: 1em auto; 
+        height: auto; 
+        width: calc(100% - 2em); 
+        max-width: 350px; 
+        border-radius: 15px;
     }
 }

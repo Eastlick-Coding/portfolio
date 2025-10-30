@@ -12,6 +12,7 @@ img {
 @media (max-width: 600px) {
     main {
         text-align: center;
+        margin: 1em;
     }
     img {
         display: block;

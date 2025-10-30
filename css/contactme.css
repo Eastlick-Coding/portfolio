@@ -29,3 +29,10 @@ input[type=submit] {
     border-radius: 5px;
     border-color: transparent;
 }
+@media (max-width: 600px) {
+    form {
+        width: calc(100% - 2em); /* keeps 1em margin on each side */
+        margin: 0 1em;           /* left and right margin */
+        padding: 20px 0;         /* optional: slightly reduce padding */
+    }
+}
