@@ -4,7 +4,7 @@ main {
     margin-right: 1em;
 }
 main img {
-    display: block;
+    display:inline-block;
     margin: 1em auto; 
 }
 img {
