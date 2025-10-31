@@ -9,7 +9,7 @@ h2 {
     margin-left: 1em;
 }
 .pictures {
-    height: 250px;
+    height: 350px;
     width: auto;
     border: 5px solid #515858;
     border-radius: 20px;
@@ -20,7 +20,10 @@ h2 {
         text-align: center;
         flex-direction: column;
     }
-
+     h2 {
+        margin-left: 0;
+        text-align: center; 
+    }    
     img,
     .pictures {
         display: block;
