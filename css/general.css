@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock&display=swap');
+
+body {
+    font-family: "Overlock", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #0B1429;
+}
+header {
+    background-color: #0E253F;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+}
+#topNav a { 
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 20px;
+}
+.mainNav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #9C4826;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+.mainNav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    flex: 1;
+} 
+
+footer {
+    background-color: #0E253F;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 20px;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-bottom: .5em;
+}
+@media (max-width: 600px) {
+    main {
+        text-align: center;
+    }
+}    

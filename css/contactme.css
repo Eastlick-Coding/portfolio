@@ -1,0 +1,38 @@
+main {
+    color: #ffffff;
+    text-align: center;
+    padding: 80px 0;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    margin: 0 auto;
+    text-align: left;
+    border-radius: 20px;
+    padding: 40px 0;
+    width: 100%;
+    max-width: 500px;
+}
+textarea {
+    resize: none;
+    border-radius: 5px;
+    border-color: transparent;
+}
+input[type=submit] {
+    background-color: #9C4826;
+    border-radius: 20px;
+    border: 5px solid #515858;
+    color: #ffffff;
+}
+.inputs {
+    border-radius: 5px;
+    border-color: transparent;
+}
+@media (max-width: 600px) {
+    form {
+        width: calc(100% - 2em); 
+        margin: 0 1em;           
+        padding: 20px 0;         
+    }
+}

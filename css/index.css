@@ -1,0 +1,22 @@
+main {
+    margin-left: 1em;
+    color: #ffffff;
+}
+img {
+    border: 5px solid #515858;
+    border-radius: 20px;
+}
+.paraIndex {
+    color: #ffffff;
+}
+@media (max-width: 600px) {
+    main {
+        text-align: center;
+        margin: 1em;
+    }
+    img {
+        display: block;
+        margin: 1em auto;
+        height: 200px;
+    }
+}
